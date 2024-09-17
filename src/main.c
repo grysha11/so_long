@@ -6,7 +6,7 @@
 /*   By: hzakharc < hzakharc@student.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/13 09:45:36 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/08/16 15:42:27 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/09/17 09:21:53 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,5 @@ int	main(int ac, char **av)
 	free(env);
 	return (0);
 }
+
+//hihi-haha
