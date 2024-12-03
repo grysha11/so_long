@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: hzakharc < hzakharc@student.42wolfsburg    +#+  +:+       +#+         #
+#    By: hzakharc <hzakharc@student.42wolfsburg>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/07 13:58:02 by hzakharc          #+#    #+#              #
-#    Updated: 2024/08/16 14:30:43 by hzakharc         ###   ########.fr        #
+#    Updated: 2024/12/03 20:07:13 by hzakharc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ OBJS		=	$(SRCS:.c=.o)
 CC			=	@cc
 RM			=	@rm -f
 CCFLAGS		=	-Wall -Werror -Wextra -Iinclude/mlx
-MLXFLAGS	=	-L/usr/X11/lib -lX11 -lXext -Llibs/mlx_linux -lmlx -lm
+MLXFLAGS	=	-L/usr/X11/lib -lX11 -lXext -Llibs/mlx_linux -lm
 
 BLUE		=	\033[0;94m
 RED			=	\033[0;91m
